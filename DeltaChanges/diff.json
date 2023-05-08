@@ -1,0 +1,16 @@
+[
+  {
+    "action": "Deploy",
+    "metadataType": "ApexClass",
+    "componentName": "class1",
+    "message": "",
+    "path": "DeltaChanges\\force-app\\main\\default\\classes\\class1.cls-meta.xml"
+  },
+  {
+    "action": "Deploy",
+    "metadataType": "ApexClass",
+    "componentName": "class2",
+    "message": "",
+    "path": "DeltaChanges\\force-app\\main\\default\\classes\\class2.cls-meta.xml"
+  }
+]
