@@ -42,7 +42,7 @@ node {
 
 		stage('Authorize to Salesforce') {
 			
-			rc = command "${toolbelt}/sfdx auth:jwt:grant --instanceurl ${SF_INSTANCE_URL} --clientid ${SF_CONSUMER_KEY} --jwtkeyfile ${server_key_file} --username ${SF_USERNAME} --setalias ${SF_USERNAME}"
+			rc = command "${toolbelt}/sfdx auth:jwt:grant --instanceurl https://login.salesforce.com --clientid 3MVG9wt4IL4O5wvKHeiDnlZPcbzCClLlaFxDkc603Cfrzt1eT6v8epuDRLcXYuLPmrQC1KX2cUu8FIlpNmNnW --jwtkeyfile ${server_key_file} --username saikumar3176@gmail.com --setalias saikumar3176@gmail.com"
 		    if (rc != 0) 
 			{
 				currentBuild.result = "FAILED"				
