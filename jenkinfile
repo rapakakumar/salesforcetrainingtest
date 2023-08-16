@@ -24,8 +24,7 @@ node {
     // -------------------------------------------------------------------------
 
     stage('checkout source') {
-		try
-		{
+	
 		   git branch: 'origin/master', credentialsId: 'GITLAB', url: 'https://github.com/rapakakumar/salesforcetrainingtest.git'
     }
 // -------------------------------------------------------------------------
