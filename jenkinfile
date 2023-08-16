@@ -25,9 +25,10 @@ node {
 
     stage('checkout source') {
 		try
-		}
+		{
 		   git branch: 'origin/master', credentialsId: 'GITLAB', url: 'https://github.com/rapakakumar/salesforcetrainingtest.git'
-    // -------------------------------------------------------------------------
+    }
+// -------------------------------------------------------------------------
     // Run all the enclosed stages with access to the Salesforce
     // JWT key credentials.
     // -------------------------------------------------------------------------
