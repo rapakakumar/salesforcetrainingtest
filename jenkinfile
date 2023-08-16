@@ -23,9 +23,10 @@ node {
     // Check out code from source control.
     // -------------------------------------------------------------------------
 
-    stage('checkout source') {
+    stage('checkout source')
+      {
 
-		credentialsId: 'GITLAB', url: 'https://github.com/rapakakumar/salesforcetrainingtest.git'
+		credentialsId: 'GITLAB', url:'https://github.com/rapakakumar/salesforcetrainingtest.git'
 	}
 
     // -------------------------------------------------------------------------
